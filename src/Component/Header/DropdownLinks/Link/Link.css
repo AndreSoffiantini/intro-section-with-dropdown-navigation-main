@@ -1,0 +1,23 @@
+.link {
+  margin-top: 25px;
+}
+
+.link a {
+  display: flex;
+  align-items: flex-end;
+}
+
+.link img {
+  width: 20px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .link {
+    margin-top: 16px;
+  }
+
+  .link a {
+    font-size: 15px;
+  }
+}

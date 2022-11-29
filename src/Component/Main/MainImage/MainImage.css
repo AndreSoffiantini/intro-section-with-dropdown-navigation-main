@@ -1,0 +1,11 @@
+.image_cont img {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .image_cont,
+  .image_cont img {
+    height: 100%;
+    width: auto;
+  }
+}

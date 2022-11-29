@@ -1,0 +1,27 @@
+.login_btn,
+.register_btn {
+  padding: 10px 0px;
+  width: 100%;
+  color: hsl(0, 0%, 41%);
+  font-size: 16px;
+}
+
+.register_btn {
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+}
+
+.login_btn:hover,
+.register_btn:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+@media screen and (min-width: 992px) {
+  .login_btn,
+  .register_btn {
+    padding: 10px 20px;
+  }
+  .register_btn {
+    margin-left: 20px;
+  }
+}
